@@ -69,7 +69,7 @@ class ScreenNetwork(LcarsScreen):
 
     def loadfile(self, all_sprites, target, layer):
         # Load data from file
-        returnpayload = read_txt("/var/lib/lcars/" + target)
+        returnpayload = read_txt("/opt/local/var/lib/lcars/" + target)
 
         # Router heading
         all_sprites.add(LcarsText(colours.ORANGE, (140, 175), returnpayload[0].split(',')[0], 2), layer = layer)

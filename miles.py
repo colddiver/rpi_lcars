@@ -21,7 +21,7 @@ def checkLCARS():
 
 def startupAlert():
     print "Init alert."
-    alertfile = open("/var/lib/lcars/alert", 'w')
+    alertfile = open("/opt/local/var/lib/lcars/alert", 'w')
     alertfile.write("SYSTEM ALERT\n")
     alertfile.write("System startup in process.\n")
     alertfile.write("Sensor and network data may be\n")
@@ -29,7 +29,7 @@ def startupAlert():
 
 def createAlert():
     print "Writing alert."
-    alertfile = open("/var/lib/lcars/alert", 'w')
+    alertfile = open("/opt/local/var/lib/lcars/alert", 'w')
     alertfile.write("RANDOM THOUGHT\n")
     alertfile.write("The first time any man's freedom\n")
     alertfile.write("is trodden on, we're all damaged.\n")

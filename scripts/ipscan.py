@@ -4,7 +4,7 @@ import subprocess
 import argparse
 
 # Output directory
-OUTDIR = "/var/lib/lcars"
+OUTDIR = "/opt/local/var/lib/lcars"
 
 # Static target lists
 routers = ["192.168.1.1", "192.168.1.2", "192.168.1.3", "192.168.1.4"]
